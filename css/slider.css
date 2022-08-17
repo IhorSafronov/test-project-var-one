@@ -1,0 +1,32 @@
+.slider {
+  max-width: 910px;
+}
+.slider-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.popular {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 144.52%;
+  letter-spacing: 0.135em;
+  color: var(--text-color-white);
+}
+
+.slider-slick-one {
+  margin-left: -80px;
+}
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-slide {
+  margin-right: 40px;
+}

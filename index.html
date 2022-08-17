@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>CoderiverTHREE.JS</title>
+  </head>
+
+  <body>
+    <div class="layout">
+      <div class="container-fluid">
+        <header class="header">
+          <div class="header__left">
+            <div class="logo">
+              <img src="./icon/netflix-logo.svg" alt="netflix logo" />
+            </div>
+            <div class="calendar">
+              <p>Friday July 8th</p>
+            </div>
+          </div>
+          <div class="header__right">
+            <div class="search">
+              <img src="./icon/search.svg" alt="search" />
+            </div>
+            <div class="user-photo">
+              <img src="./img/user-photo.png" alt="user user-photo" />
+            </div>
+          </div>
+        </header>
+      </div>
+      <main class="main">
+        <div class="container-left">
+          <div class="movie-categories wow fadeInDownBig">
+            <div class="category">
+              <a href="#!">Drama</a>
+            </div>
+            <div class="category">
+              <a href="#!">Thriller</a>
+            </div>
+            <div class="category">
+              <a href="#!">Supernatural</a>
+            </div>
+          </div>
+          <div class="movie-name wow fadeInLeftBig">
+            <h2>Stranger Things</h2>
+          </div>
+          <div class="movie-description wow fadeInLeftBig">
+            <div class="year">2019</div>
+            <div class="director">DIRECTOR: <span>Shawn Levy</span></div>
+            <div class="seasons">seasons: <span>3 (5 Episodes) </span></div>
+          </div>
+          <div class="movie-about wow fadeInLeftBig">
+            <p>
+              In 1980s Indiana, a group of young friends witness supernatural
+              forces and secret government exploits. As they search for answers,
+              the children unravel a series of extraordinary mysteries.
+            </p>
+          </div>
+          <div class="stars">
+            <form action="">
+              <input class="star star-5" id="star-5" type="radio" name="star" />
+              <label class="star star-5" for="star-5"></label>
+              <input class="star star-4" id="star-4" type="radio" name="star" />
+              <label class="star star-4" for="star-4"></label>
+              <input class="star star-3" id="star-3" type="radio" name="star" />
+              <label class="star star-3" for="star-3"></label>
+              <input class="star star-2" id="star-2" type="radio" name="star" />
+              <label class="star star-2" for="star-2"></label>
+              <input class="star star-1" id="star-1" type="radio" name="star" />
+              <label class="star star-1" for="star-1"></label>
+            </form>
+          </div>
+          <div class="buttons wow fadeInUpBig">
+            <div class="btn">
+              <a href="#!">STREAM NOW</a>
+              <img src="./icon/play.svg" alt="play" class="play" />
+            </div>
+            <div class="btn">
+              <a href="#!">ALL EPISODES</a>
+            </div>
+          </div>
+        </div>
+        <section class="slider">
+          <div class="container-left">
+            <div class="slider-top">
+              <div class="popular">
+                <p>POPULAR THIS WEEK</p>
+              </div>
+              <div class="arrows"></div>
+            </div>
+          </div>
+          <div class="container-left">
+            <div class="slider-slick-one">
+              <div class="slick-slide-one">
+                <img src="./img/man-bee.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/breaking-bad.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/the-rain.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/live-in-year.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/honey-heist.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/squid-game.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/man-bee.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/breaking-bad.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/the-rain.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/live-in-year.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/honey-heist.png" alt="slide one" />
+              </div>
+              <div class="slick-slide-one">
+                <img src="./img/squid-game.png" alt="slide one" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="old">
+          <div class="red"></div>
+          <div class="years-old">
+            <p>16+</p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div id="canvas" class="canvas"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/three.js"></script>
+    <script src="./js/animate.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/slider-one.js"></script>
+  </body>
+</html>

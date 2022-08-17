@@ -1,0 +1,52 @@
+body {
+  overflow: hidden;
+}
+/* Переменные */
+:root {
+  --background-layout: #0f1219;
+  --text-color-gray: #c8c8c8;
+  --color-gray: #c8c8c8;
+  --text-color-white: #fff;
+  --color-white: #fff;
+  --text-color-main-gray: #a7a6a6;
+  --color-main-gray: #a7a6a6;
+  --text-color-red: #d40d1f;
+  --color-red: #d40d1f;
+  --box-shadow: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  --max-width: 910px;
+}
+/* Переменные */
+
+/* Шрифты */
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,800);
+@font-face {
+  font-family: "KyivTypeTitling";
+  font-weight: 500;
+  font-style: normal;
+  src: url("./../font/KyivTypeTitling-Medium.eot") format("embedded-opentype")
+    local("./../fonts/KyivTypeTitlin-Medium.otf") format("embedded-opentype");
+}
+/* Шрифты */
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+  background: #dddee0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-fluid {
+  position: relative;
+
+  padding: 35px 33px 0 80px;
+}
+
+.container-left {
+  position: relative;
+  margin-left: 80px;
+}

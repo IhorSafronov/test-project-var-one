@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding-right: 16px;
+  border-right: 2px solid var(--color-white);
+}
+.calendar {
+  margin-left: 26px;
+  font-family: "KyivTypeTitling";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--text-color-gray);
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.search {
+  width: 35px;
+  height: 35px;
+  margin-right: 48px;
+}
+.user-photo {
+  width: 75px;
+  height: 75px;
+}
